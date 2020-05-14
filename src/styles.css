@@ -1,0 +1,68 @@
+body {
+  align-items: center;
+  background-color: #f0efe9;
+  color: #565969;
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.App {
+  background-color: white;
+  margin: 40px;
+  padding: 40px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.header-date {
+  display: flex;
+  align-items: center;
+}
+
+.header-date-year {
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.item {
+  cursor: pointer;
+  display: block;
+  margin-bottom: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.completed {
+  color: rgba(0, 0, 0, 0.2);
+  text-decoration: line-through;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.filter input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+  width: 100%;
+}
+
+.filter input:focus {
+  border-color: rgba(0, 0, 0, 0.2);
+}
